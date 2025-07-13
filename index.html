@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Learning Checklist - Tags, Examples, Outputs</title>
+</head>
+<body>
+
+  <h1>📘 HTML Theory, Examples & Output</h1>
+  <hr>
+
+  <h2>1. Understanding HTML and its Use Cases</h2>
+  <p>HTML (HyperText Markup Language) is the standard markup language for creating web pages. It describes the structure of a webpage using elements and tags.</p>
+  <p><b>Use Cases:</b> Building website layouts, adding content like text, images, videos, forms, tables, etc.</p>
+  <hr>
+
+  <h2>2. Creating First HTML Page in VS Code</h2>
+  <p>Open VS Code, create a new file with <code>.html</code> extension and paste this:</p>
+  <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My First Page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+  </pre>
+  <p><b>Output:</b> Displays "Hello World!" in large text.</p>
+  <hr>
+
+  <h2>3. HTML Structure</h2>
+  <ul>
+    <li><code>&lt;!DOCTYPE html&gt;</code> - Defines the document as HTML5</li>
+    <li><code>&lt;html&gt;</code> - Root element</li>
+    <li><code>&lt;head&gt;</code> - Metadata, title, links</li>
+    <li><code>&lt;title&gt;</code> - Page title shown in browser tab</li>
+    <li><code>&lt;body&gt;</code> - Main content of the page</li>
+  </ul>
+  <hr>
+
+  <h2>4. Text Elements</h2>
+  <pre>
+&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;p&gt;This is a paragraph.&lt;/p&gt;
+&lt;br&gt;
+&lt;a href="https://example.com"&gt;Visit Example&lt;/a&gt;
+&lt;span&gt;This is inline text&lt;/span&gt;
+&lt;code&gt;console.log('Hello')&lt;/code&gt;
+&lt;pre&gt;Preformatted
+text&lt;/pre&gt;
+  </pre>
+  <p><b>Output:</b> Headings, paragraph, line break, hyperlink, inline text, inline code, and preformatted block.</p>
+  <hr>
+
+  <h2>5. HTML Lists</h2>
+  <pre>
+&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;First&lt;/li&gt;
+  &lt;li&gt;Second&lt;/li&gt;
+&lt;/ol&gt;
+  </pre>
+  <p><b>Output:</b> An unordered and ordered list.</p>
+  <hr>
+
+  <h2>6. Nested Elements</h2>
+  <pre>
+&lt;p&gt;This is a &lt;strong&gt;bold&lt;/strong&gt; word.&lt;/p&gt;
+  </pre>
+  <p><b>Output:</b> Bold word inside a paragraph.</p>
+  <hr>
+
+  <h2>7. Media Tags</h2>
+  <pre>
+&lt;img src="image.jpg" alt="Sample" width="200"&gt;
+&lt;video width="320" controls&gt;
+  &lt;source src="video.mp4" type="video/mp4"&gt;
+&lt;/video&gt;
+&lt;audio controls&gt;
+  &lt;source src="audio.mp3" type="audio/mpeg"&gt;
+&lt;/audio&gt;
+  </pre>
+  <p><b>Output:</b> Displays image, video and audio player.</p>
+  <hr>
+
+  <h2>8. HTML Attributes</h2>
+  <p>Attributes provide additional information:</p>
+  <ul>
+    <li><code>href</code>, <code>target</code> in &lt;a&gt;</li>
+    <li><code>src</code>, <code>alt</code>, <code>width</code>, <code>height</code> in media</li>
+  </ul>
+  <hr>
+
+  <h2>9. Anchor Tag Navigation</h2>
+  <pre>
+&lt;a href="#section1"&gt;Go to Section 1&lt;/a&gt;
+...
+&lt;h2 id="section1"&gt;Section 1&lt;/h2&gt;
+  </pre>
+  <p><b>Output:</b> Jumps to section with id "section1".</p>
+  <hr>
+
+  <h2>10. Comment Code</h2>
+  <pre>
+&lt;!-- This is a comment --&gt;
+  </pre>
+  <p><b>Output:</b> Not visible in the browser.</p>
+  <hr>
+
+  <h2>11. Div Tag</h2>
+  <pre>
+&lt;div&gt;This is a container&lt;/div&gt;
+  </pre>
+  <p><b>Output:</b> Groups elements together.</p>
+  <hr>
+
+  <h2>12. Semantic Tags</h2>
+  <pre>
+&lt;header&gt;Header&lt;/header&gt;
+&lt;main&gt;Main&lt;/main&gt;
+&lt;section&gt;Section&lt;/section&gt;
+&lt;article&gt;Article&lt;/article&gt;
+&lt;footer&gt;Footer&lt;/footer&gt;
+&lt;figure&gt;figure&lt;/figure&gt;
+&lt;form&gt;form&lt;/form&gt;
+&lt;aside&gt;aside&lt;/aside&gt;
+&lt;details&gt;details&lt;/details&gt;
+  </pre>
+  <p><b>Output:</b> Semantic structure for accessibility and SEO.</p>
+  <hr>
+
+  <h2>13. Block vs Inline</h2>
+  <ul>
+    <li><b>Block:</b> &lt;div&gt;, &lt;p&gt;, &lt;section&gt;</li>
+    <li><b>Inline:</b> &lt;span&gt;, &lt;a&gt;, &lt;code&gt;</li>
+  </ul>
+  <hr>
+
+  <h2>14. Text Formatting</h2>
+  <pre>
+&lt;b&gt;Bold&lt;/b&gt;
+&lt;i&gt;Italic&lt;/i&gt;
+&lt;small&gt;Small&lt;/small&gt;
+&lt;sub&gt;Sub&lt;/sub&gt;
+&lt;sup&gt;Sup&lt;/sup&gt;
+&lt;ins&gt;Inserted&lt;/ins&gt;
+&lt;del&gt;Deleted&lt;/del&gt;
+&lt;mark&gt;Marked&lt;/mark&gt;
+  </pre>
+  <hr>
+
+  <h2>15. HTML Symbols</h2>
+  <pre>
+&amp;copy; &amp;hearts; &amp;larr;
+  </pre>
+  <p><b>Output:</b> © ♥ ←</p>
+  <hr>
+
+  <h2>16. HTML Tables</h2>
+  <pre>
+&lt;table border="1"&gt;
+  &lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Age&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;Jay&lt;/td&gt;&lt;td&gt;22&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+  </pre>
+  <hr>
+
+  <h2>17. Forms and Inputs</h2>
+  <pre>
+&lt;form action="/submit" method="post"&gt;
+  &lt;label&gt;Name:&lt;/label&gt;
+  &lt;input type="text" name="name" required&gt;
+  &lt;br&gt;
+  &lt;label&gt;Message:&lt;/label&gt;
+  &lt;textarea&gt;&lt;/textarea&gt;
+  &lt;br&gt;
+  &lt;select&gt;
+    &lt;option&gt;Option 1&lt;/option&gt;
+    &lt;option&gt;Option 1&lt;/option&gt;
+    &lt;option&gt;Option 1&lt;/option&gt;
+    &lt;option&gt;Option 1&lt;/option&gt;
+  &lt;/select&gt;
+  &lt;br&gt;
+  &lt;button&gt;Send&lt;/button&gt;
+&lt;/form&gt;
+  </pre>
+  <hr>
+
+  <h2>18. Input Types</h2>
+  <pre>
+&lt;input type="checkbox"&gt;
+&lt;input type="color"&gt;
+&lt;input type="file"&gt;
+&lt;input type="tel"&gt;
+&lt;input type="date"&gt;
+&lt;input type="number"&gt;
+&lt;input type="radio"&gt;
+&lt;input type="range"&gt;
+  </pre>
+  <hr>
+
+  <h2>19. Form Attributes</h2>
+  <ul>
+    <li><code>method</code> - GET or POST</li>
+    <li><code>action</code> - form target URL</li>
+    <li><code>target</code> - open in new tab</li>
+    <li><code>novalidate</code> - skip validation</li>
+    <li><code>enctype</code> - encoding type for file</li>
+    <li><code>placeholder</code> - encoding type for file</li>
+    <li><code>required</code> - encoding type for file</li>
+    <li><code>name</code> - encoding type for file</li>
+  </ul>
+  <hr>
+
+  <h2>20. Iframe & Media Source</h2>
+  <pre>
+&lt;iframe src="https://www.youtube.com/embed/xyz" width="560" height="315"&gt;&lt;/iframe&gt;
+  </pre>
+  <p><b>Output:</b> Embeds external page/video.</p>
+  <hr>
+  <h2>21. Media Attributes</h2>
+  <ul>
+    <li>src</li>
+    <li>width</li>
+    <li>height</li>
+    <li>alt</li>
+    <li>muted</li>
+    <li>loop</li>
+    <li>autoplay</li>
+    <li>controls</li>
+    <li>media</li>
+  </ul>
+
+</body>
+</html>
