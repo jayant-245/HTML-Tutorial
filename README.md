@@ -53,6 +53,6 @@ This checklist covers all foundational and advanced concepts of HTML along with 
 
 ## 📌 Let's Connect
 
-🧠 Follow my journey on [Twitter/X](https://x.com/jayant_bhambu) & [LinkedIn](https://linkedin.com/jayant-bhambu)  
+🧠 Follow my journey on [Twitter/X](https://x.com/jayant_bhambu) & [LinkedIn](https://linkedin.com/in/jayant-bhambu)  
 📂 Code coming daily — stay tuned!  
 📢 Tag: **#90DaysGrind** | **#FrontendDev** | **#HTML**
